@@ -15,8 +15,8 @@ This repository aims to explain the 'WHAT', 'WHY' and 'HOW' of MochaJS and ChaiJ
 ## Table of Contents
 1. What is Mocha?
 1. What is Chai?
+1. Setup
 1. How to write Mocha Tests?
-	1. Setup
 	1. `describe()`
 	1. `it()`
 	1. `before()` and `beforeEach()`
@@ -32,18 +32,20 @@ This repository aims to explain the 'WHAT', 'WHY' and 'HOW' of MochaJS and ChaiJ
 Mocha is a JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting.
 ### What is Chai?
 Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
+### Setup
+	1. Initiate a npm project.
+	`npm init` 
+	2. Installing Mocha 
+	`npm i -g --save-dev mocha` 
+	3. Installing Chai 
+	`npm i -g --save-dev chai` 
+	Note: save-dev saves it as a dev dependency
+	4. create a test folder. Add your tests into it.
 ### How to write Mocha Tests?
-	#### Setup
-		##### 1. Initiate a npm project.
-		 npm init 
-		##### 2. Installing Mocha 
-		 npm i -g --save-dev mocha 
-		##### 3. Installing Chai 
-		 npm i -g --save-dev chai 
-		Note: save-dev saves it as a dev dependency
-		##### 4. create a test folder. Add your tests into it.
 	#### describe()
-	They are commonly known as test suites, which contains test cases. They are nothing more than merely groups, and you can have groups within groups. You can nest it as deep as you want. _Also see `basic-test.js` above._
+	They are commonly known as test suites, which contains test cases. 
+	They are nothing more than merely groups, and you can have groups within groups.
+	You can nest it as deep as you want. _Also see `basic-test.js` above._
 	#### it()
 	It is nothing but a test case.
 	#### `before()` and `beforeEach()`
