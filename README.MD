@@ -41,21 +41,21 @@ Chai is a BDD / TDD assertion library for node and the browser that can be delig
 	`npm i -g --save-dev chai` 
 	Note: save-dev saves it as a dev dependency
 	4. create a test folder. Add your tests into it.
-### How to write Mocha Tests?
-	#### describe()
-	They are commonly known as test suites, which contains test cases. 
-	They are nothing more than merely groups, and you can have groups within groups.
-	You can nest it as deep as you want. _Also see `basic-test.js` above._
-	#### it()
-	It is nothing but a test case.
-	#### `before()` and `beforeEach()`
-	They are also called as **hooks**. They are used to set preconditions.
-	`before()` is run before all it/describe. `beforeEach` is run before every it.
-	#### `after()` and `afterEach()`
-	They are also called **hooks** and are used to clean up after test cases.
-	#### only() 
-	It ensures only the test cases in only block is executing.
-	**NOTE** _Also see `basic-test.js` above for example on each._
+### How to write Mocha Tests? ###
+#### `describe()` ####
+They are commonly known as test suites, which contains test cases. 
+They are nothing more than merely groups, and you can have groups within groups.
+You can nest it as deep as you want. _Also see `basic-test.js` above._
+#### `it()` ####
+It is nothing but a test case.
+#### `before()` and `beforeEach()`
+They are also called as **hooks**. They are used to set preconditions.
+`before()` is run before all it/describe. `beforeEach` is run before every it.
+#### `after()` and `afterEach()` ####
+They are also called **hooks** and are used to clean up after test cases.
+#### `only()` ####
+It ensures only the test cases in only block is executing.
+**NOTE** _Also see `basic-test.js` above for example on each._
 ### `assert()`
 _Explained via code in `assert-test-example.js`_
 ### `should()`
