@@ -1,7 +1,7 @@
 <h1 align="center"> Mocha-Tutorial </h1>
 
 <div align="center">
-    <img src="https://github.com/Shwetabh1/Mocha-Tutorial/blob/master/Images/mocha_final.png" alt="Mocha JS Tutorial" width="418" height="332"/>
+    <img src="https://github.com/Shwetabh1/Mocha_Tutorial/blob/master/Images/mocha_final.jpg" alt="Mocha JS Tutorial" width="418" height="332"/>
   <br>
 </div>
 
@@ -22,10 +22,10 @@ This repository aims to explain the 'WHAT', 'WHY' and 'HOW' of MochaJS and ChaiJ
 	1. `before()` and `beforeEach()`
 	1. `after()` and `afterEach()`
 	1. `only()`
-1. assert()
-1. should()
-1. expect()
-1. Difference between assert, should and expect.
+1. `assert()`
+1. `should()`
+1. `expect()`
+1. Difference between `assert()`, `should()` and `expect()`.
 1. Useful Links.
 
 ### What is Mocha?
@@ -35,11 +35,11 @@ Chai is a BDD / TDD assertion library for node and the browser that can be delig
 ### How to write Mocha Tests?
 	#### Setup
 		##### 1. Initiate a npm project.
-		``` npm init ```
+		 npm init 
 		##### 2. Installing Mocha 
-		``` npm i -g --save-dev mocha ```
+		 npm i -g --save-dev mocha 
 		##### 3. Installing Chai 
-		``` npm i -g --save-dev chai ```
+		 npm i -g --save-dev chai 
 		Note: save-dev saves it as a dev dependency
 		##### 4. create a test folder. Add your tests into it.
 	#### describe()
