@@ -40,7 +40,10 @@ Chai is a BDD / TDD assertion library for node and the browser that can be delig
 	3. Installing Chai 
 	`npm i -g --save-dev chai` 
 	Note: save-dev saves it as a dev dependency
-	4. create a test folder. Add your tests into it.
+	4. In the package.json file assign the value of 'mocha' to test. It will be something like this.
+	`scripts": { "test" : "mocha" }`
+	5. Create a test folder. Add your tests into it.
+	6. Run all tests using `npm test`. Run individual test file using `mocha testfile.js`
 ### How to write Mocha Tests? ###
 #### `describe()` ####
 They are commonly known as test suites, which contains test cases. 
