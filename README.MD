@@ -13,6 +13,7 @@
 This repository aims to explain the 'WHAT', 'WHY' and 'HOW' of MochaJS and ChaiJS in a simplifieid manner.
 
 ## Table of Contents
+1. What is Unit Testing?
 1. What is Mocha?
 1. What is Chai?
 1. Setup
@@ -26,8 +27,14 @@ This repository aims to explain the 'WHAT', 'WHY' and 'HOW' of MochaJS and ChaiJ
 1. `should()`
 1. `expect()`
 1. Difference between `assert()`, `should()` and `expect()`.
+1. What is TDD?
 1. Useful Links.
 
+### What is Mocha?
+* Unit tests are first safety net for catching bugs in the production code.
+* Unit test validate test cases for individual functions.
+* They should build and run in the development environment.
+* Unit test should run fast. We ideally want a developer re-running the unit test every three to five minutes and this can be difficult with a slow build process or if any of the tests runs slow, an example, more than a just a few seconds.
 ### What is Mocha?
 Mocha is a JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting.
 ### What is Chai?
@@ -67,6 +74,8 @@ _Explained via code in `should-test-example.js`_
 _Explained via code in `expect-test-example.js`_
 ### Difference between `assert()`, `should()` and `expect()`.
 `assert()` follows a TDD style assertion. `expect()` and `should()` both follow BDD style. Both use the same chainable language to construct assertions, but they differ in the way an assertion is initially constructed. In the case of should, there are also some caveats and additional tools to overcome the caveats. Moreover, `expect()` require is just a reference to the `expect()` function, whereas with the `should()` require, the function is being executed.
+### What is TDD?
+_Explained via code in `tdd-test-example.js`_ 
 ### Useful Links.
 * https://gist.github.com/samwize/8877226
 * https://www.youtube.com/watch?v=MLTRHc5dk6s
