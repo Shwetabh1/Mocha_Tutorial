@@ -30,7 +30,7 @@ This repository aims to explain the 'WHAT', 'WHY' and 'HOW' of MochaJS and ChaiJ
 1. What is TDD?
 1. Useful Links.
 
-### What is Mocha?
+### What is Unit Testing?
 * Unit tests are first safety net for catching bugs in the production code.
 * Unit test validate test cases for individual functions.
 * They should build and run in the development environment.
