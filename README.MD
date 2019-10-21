@@ -31,10 +31,8 @@ This repository aims to explain the 'WHAT', 'WHY' and 'HOW' of MochaJS and ChaiJ
 1. Useful Links.
 
 ### What is Unit Testing?
-* Unit tests are first safety net for catching bugs in the production code.
-* Unit test validate test cases for individual functions.
-* They should build and run in the development environment.
-* Unit test should run fast. We ideally want a developer re-running the unit test every three to five minutes and this can be difficult with a slow build process or if any of the tests runs slow, an example, more than a just a few seconds.
+* Think of them as first safety net for catching bugs in the production code. They are means to validate test cases for individual functions. That is all there is to it!
+* Also keep in mind unit test should run fast. We ideally want a developer re-running the unit test every three to five minutes and this can be difficult with a slow build process or if any of the tests runs slow, an example, more than a just a few seconds.
 ### What is Mocha?
 Mocha is a JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting.
 ### What is Chai?
